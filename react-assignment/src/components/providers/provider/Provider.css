@@ -1,0 +1,59 @@
+.Provider {
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    max-width: 50%;
+    flex: 1 0 40%;
+}
+
+.img{
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+
+.DetailsDiv{
+    max-width: 60%;
+    margin-left: 50px;
+}
+
+.h4{
+    justify-content: start;
+    text-align: start;
+    font-size: 16px;
+}
+
+.li{
+    text-align: start;
+}
+
+.ul{
+    text-align: start;
+    margin-left: 0px;
+}
+
+.Provider:hover,
+.Provider:active {
+    background-color: #eee;
+}
+
+@media (min-width: 300px) and (min-height: 400px){
+    .Provider{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 500px){
+    .Provider{
+        max-width: 45%;
+    }
+}

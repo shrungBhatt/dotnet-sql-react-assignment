@@ -1,0 +1,18 @@
+.Services{
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 20%;
+}
+
+.Providers{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.h3{
+    padding-left: 20px;
+    vertical-align: middle;
+}
