@@ -62,7 +62,7 @@ Response
 }
 ```
 
-### __4. API for updating an getting all the contracts with readable data__
+### __4. API for getting all the contracts with readable data__
 ```url
 GET: {serverAddress}/api/Contracts/GetContractsView
 ```
@@ -84,7 +84,7 @@ Response
     ]
 }
 ```
-### __4. API for deleting an existing contract__
+### __5. API for deleting an existing contract__
 ```url
 DELETE: {serverAddress}/api/Contracts/DeleteContract?id=7
 ```
